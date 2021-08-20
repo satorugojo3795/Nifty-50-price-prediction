@@ -10,4 +10,4 @@ We got the least error in model 2 in which we passed univariate date. The mean a
 
 The architecture of model 2 is as follows
 
-INPUT LAYER(7) -> LAMBDA LAYER() -> LSTM(128,ACTIVATION="relu") -> LSTM(128,activation="relu) -> DENSE(64) -> OUTPUT(1)
+INPUT LAYER(7) -> LAMBDA LAYER(expand_dims(axis=1)) -> LSTM(128,ACTIVATION="relu") -> LSTM(128,activation="relu) -> DENSE(64) -> OUTPUT(1)
